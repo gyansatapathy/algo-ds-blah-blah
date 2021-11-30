@@ -3,7 +3,7 @@
  *
  */
 
-const allConstruct = (target, words, memo) => {
+const allConstruct = (target, words, memo = {}) => {
   // console.log('memo' + JSON.stringify(memo));
   if (target in memo) return memo[target];
   if (target === '') return [[]];
