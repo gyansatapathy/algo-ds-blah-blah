@@ -1,1 +1,1 @@
-[Dynamic Programming hands on]
+- Dynamic Programming hands on
