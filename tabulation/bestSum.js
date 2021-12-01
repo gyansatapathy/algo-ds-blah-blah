@@ -21,6 +21,7 @@ const bestSum = (target, numbers) => {
 console.log(bestSum(7, [3, 4, 5, 7]));
 console.log(bestSum(7, [3, 4, 5]));
 console.log(bestSum(300, [7, 14]));
+console.log(bestSum(100, [1, 2, 5, 25]));
 
 /**
  * Complexities
