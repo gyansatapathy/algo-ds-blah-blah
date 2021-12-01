@@ -7,7 +7,7 @@ const bestSum = (target, numbers) => {
       for (let number of numbers) {
         // if (i + number < table.length) {
         const newVal = [...table[i], number];
-        if (!table[i + number] && table[i + number].length > newVal.length) {
+        if (!table[i + number] || table[i + number].length > newVal.length) {
           table[i + number] = newVal;
         }
         // }
