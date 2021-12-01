@@ -1,21 +1,21 @@
 const bestSum = (target, numbers) => {
-  const table = Array(target + 1).fill(null);
-  table[0] = [];
+    const table = Array(target + 1).fill(null);
+    table[0] = [];
 
-  for (let i = 0; i <= table.length; i++) {
-    if (table[i]) {
-      for (let number of numbers) {
-        // if (i + number < table.length) {
-        const newVal = [...table[i], number];
-        if (!table[i + number] || table[i + number].length > newVal.length) {
-          table[i + number] = newVal;
+    for (let i = 0; i <= table.length; i++) {
+        if (table[i]) {
+            for (let number of numbers) {
+                if (i + number < table.length) {
+                    const newVal = [...table[i], number];
+                    if (!table[i + number] || table[i + number].length > newVal.length) {
+                        table[i + number] = newVal;
+                    }
+                }
+            }
         }
-        // }
-      }
     }
-  }
 
-  return table[target];
+    return table[target];
 };
 
 console.log(bestSum(7, [3, 4, 5, 7]));
