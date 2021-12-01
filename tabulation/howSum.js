@@ -16,3 +16,13 @@ const howSum = (target, numbers) => {
 };
 
 console.log(howSum(7, [3, 4, 5]));
+console.log(howSum(7, [3, 4, 5, 7]));
+console.log(howSum(300, [7, 14]));
+
+/**
+ * Complexities
+ * m = target
+ * n = length of numbers
+ * Time O(n*m^2)
+ * Space O(m^2)
+ */
