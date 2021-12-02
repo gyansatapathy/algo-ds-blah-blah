@@ -1,7 +1,7 @@
 const gridTraveler = (m, n) => {
   const table = Array(m + 1)
     .fill()
-    .map((val) => Array(n + 1).fill(0));
+    .map(() => Array(n + 1).fill(0));
 
   table[1][1] = 1;
 
