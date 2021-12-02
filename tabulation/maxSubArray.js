@@ -16,7 +16,6 @@ const maxSubArray = (numbers) => {
         max = Math.max(table[i], max);
     }
 
-    console.log(table)
     return max;
 }
 
