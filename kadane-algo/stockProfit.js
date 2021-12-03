@@ -20,5 +20,5 @@ const calculateStockProfit = (prices) => {
     return maxProfit;
 }
 
-console.log(calculateStockProfit([7, 1, 3, 8, 6]));
-console.log(calculateStockProfit([22, 17, 3, 8, 19]));
+console.log("MaxProfit: " + calculateStockProfit([7, 1, 3, 8, 6]));
+console.log("MaxProfit: " +calculateStockProfit([22, 17, 3, 8, 19]));
