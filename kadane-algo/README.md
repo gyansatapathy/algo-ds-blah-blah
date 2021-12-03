@@ -4,7 +4,7 @@
 
 
 
-// numbers = [-1,2,0,5,6]
+`// numbers = [-1,2,0,5,6]
 const maxSubArray = (numbers) => {
     let maxGlobal = numbers[0], maxCurrent = numbers[0]
     for(let i = 0; i < numbers.length; i++){
@@ -12,4 +12,4 @@ const maxSubArray = (numbers) => {
         if(maxCurrent > maxGlobal) maxGlobal = maxCurrent;
     }
     return maxGlobal;
-}
+}`
