@@ -1,6 +1,6 @@
 # Kadane's Algorithm
 
-## The maximum sub array at an index i of an array is either the item at index i or the sum of the items of an array [0, i-1] and item at index i
+## The maximum sub array at an index i of an array is either the item at index i or the sum of the items of sub-array till the index i-1 and item at index i
 
 
 // numbers = [-1,2,0,5,6]
