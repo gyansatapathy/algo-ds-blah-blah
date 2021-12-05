@@ -1,7 +1,7 @@
 /**
  * leetcode problem: https://leetcode.com/problems/get-maximum-in-generated-array/
  * Time complexity O(n)
- * Space Complexity O(1)
+ * Space Complexity O(n)
  */
 const getMaximumGenerated = function (n) {
 
