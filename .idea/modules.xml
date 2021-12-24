@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dynamic-programming.iml" filepath="$PROJECT_DIR$/.idea/dynamic-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/algo-ds-blah-blah.iml" filepath="$PROJECT_DIR$/.idea/algo-ds-blah-blah.iml" />
     </modules>
   </component>
 </project>

@@ -37,4 +37,5 @@ const gridTravellerWithMemoization = (m, n, memo = {}) => {
     return memo[m+""+n];
 }
 
-console.log(gridTravellerWithMemoization(50, 50));
+console.log(gridTravellerWithMemoization(23, 12));
+console.log(gridTravellerWithMemoization(3, 7));
