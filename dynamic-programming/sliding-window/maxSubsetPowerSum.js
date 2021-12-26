@@ -1,4 +1,3 @@
-
 /*
     problem: https://www.geeksforgeeks.org/maximize-sum-of-each-element-raised-to-power-of-its-frequency-in-k-sized-subarray/
  */
